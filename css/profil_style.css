@@ -1,0 +1,14 @@
+img.size_big{
+    width: 60%;
+    margin: auto;
+    display: grid;
+}
+.test{
+    display: inline-block;
+    font-size: 1em;
+}
+p.descrition{
+    display: flex;
+    font-size: 1em;
+    text-align: start;
+}

@@ -1,0 +1,83 @@
+body{
+    margin: o auto;
+    border: 1px solid grey;
+    background-color: rgb(183, 189, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+header{
+    padding: 10px 1.56%;
+    border-bottom: 2px solid  rgb(123, 150, 187);
+    background-color: rgb(180, 216, 238);
+}
+main{
+    background-color: lightsteelblue;
+    padding: 15px 1.56%;
+}
+aside{
+    padding: 15px 1.56%;
+    background-color: rgb(135, 159, 189);
+}
+footer{
+    font-size: .75em;
+    clear: both;
+    border-top: 2px solid rgb(123, 150, 187);
+    background-color:  rgb(180, 216, 238);
+    padding: 10px 1.56%;
+}
+h3{
+    font-size: 1.25em;
+    color: royalblue;
+    margin: 10px;
+}
+p{
+    font-size: 1em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+.boxList{
+    background-color: rgb(205, 219, 231);
+    border: 2px solid slategray;
+    border-radius: 10px;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 3px;
+}
+ul.header_list{
+    padding-inline-start: 1em;
+    align-items: center;
+}
+
+ul.mat_list{
+    padding-inline-start: 0.5em;
+}
+img{
+    width: 25%;
+    height: 25%;
+    margin: 3% auto auto 3%;
+}
+.boxList1{
+    background-color: steelblue;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 3px;
+}
+.matBox{
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 10px 0px 10px 30px;
+    margin-top: 5px;
+    justify-items: center;
+    width: 70%;
+    display: block;
+    text-align: left;
+}
+a{
+    color: rgb(34, 94, 146);
+    text-decoration: none;
+}
+
+p{
+    text-indent: 5%;
+}
