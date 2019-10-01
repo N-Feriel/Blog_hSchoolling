@@ -9,6 +9,12 @@ img.size_big{
 }
 p.descrition{
     display: flex;
+    font-style: italic;
     font-size: 1em;
     text-align: start;
+}
+figcaption {
+    display: grid;
+    justify-items: center;
+    color: rgb(67, 102, 148);
 }

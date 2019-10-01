@@ -1,9 +1,13 @@
 h4{
     color: rgb(100, 98, 98);
+    margin: 20px 10px 30px;
 }
-
+table{
+    width: 80%;
+    margin-left: 20px;
+}
 table#add_table{
-    margin-top: 50px; 
+    margin-top: 50px;     
 }
 td{
     height: 10px;
@@ -11,8 +15,22 @@ td{
 td.bl{
     font-weight: bold;
 }
-
 td {
     padding: 15px;
     border-bottom: 1px solid #ddd;
-  }
+}
+td#bl{
+    font-weight:bold;
+}
+.button{
+    background-color: rgb(200, 208, 230);
+    display: block;
+    width: 60px;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    border-radius: 5px;
+}
+textarea {
+    background-color: rgb(244, 248, 253);
+    border: 1px solid #888; 
+}

@@ -1,13 +1,24 @@
-
 ul.mat_list{
     padding-inline-start: 0.5em;
 }
-
 img.tab_book{
     width: 75%;
     height: 90%;
 }
-
+p.expl{
+    display: flex;
+    font-style: bold;
+    font-size: 1em;
+    text-align: start;
+}
+p.citation{
+    font-style: italic;
+    font-size: 1em;
+}
+a.cit{
+    color:red;
+    text-decoration: underline;
+}
 .matBox{
     list-style-type: none;
     border-radius: 20px;
@@ -18,17 +29,16 @@ img.tab_book{
     display: block;
     text-align: left;
 }
-
 table#book_table {
     margin-left: 20px;
     width: 70%;
     text-align: inherit;
+}
+td{
+  height: 50px;
   }
-  td{
-      height: 50px;
-  }
-  th, td {
+th, td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-  }
+}
