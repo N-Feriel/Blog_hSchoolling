@@ -50,11 +50,14 @@ ul.header_list{
 ul.mat_list{
     padding-inline-start: 0.5em;
 }
+
 img{
-    width: 25%;
-    height: 25%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     margin: 3% auto auto 3%;
 }
+
 .boxList1{
     background-color: steelblue;
     border: 2px solid slategray;

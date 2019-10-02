@@ -1,8 +1,38 @@
+h4{
+    padding: 0;
+    margin: 10px 0 15px 25px;
+}
 
+.card{
+    display: flow-root;
+    margin: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: "picture"
+        "contain";
+}
+.img_prof{
+    display: grid;
+    width: 70%;
+    height: 60%;
+    margin-left: 0;
+    grid-area: picture;
+}
+.container{
+    width: 70%;
+    border: 2px solid blue;
+    display: grid;
+    grid-area: contain;
+}
 a.mat_link{
     color: azure;
     text-decoration: underline;
 }
-.card{
-    width: 100%;
+/* Reduce size of card for laptop Screen */
+
+@media only screen and (min-width: 760px){
+    .card{
+        width: 50%;
+        height: 80%;
+    }
 }
