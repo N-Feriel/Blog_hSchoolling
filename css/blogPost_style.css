@@ -1,0 +1,31 @@
+ul.inform_auth {
+  color: rgb(18, 7, 114);
+}
+
+.boxList1 {
+  background-color: steelblue;
+  border: 2px solid slategray;
+  border-radius: 10px;
+  list-style-type: none;
+  display: inline-flex;
+  padding: 3px;
+}
+.info {
+  list-style-type: none;
+  padding: 0px 0px 20px 20px;
+  margin-top: 5px;
+  justify-items: center;
+  width: 70%;
+  display: block;
+  text-align: left;
+}
+
+td#bl {
+  font-weight: bold;
+}
+
+.avatar {
+  width: 100px;
+  height: 70px;
+  margin-left: 20px;
+}

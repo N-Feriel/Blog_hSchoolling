@@ -21,13 +21,14 @@ footer {
   background-color: rgb(180, 216, 238);
   padding: 10px 1.56%;
 }
-.section_social {
+.boxShar {
   background-color: rgb(205, 219, 231);
   border: 2px solid slategray;
   border-radius: 10px;
   list-style-type: none;
   display: inline-flex;
   padding: 3px;
+  margin-right: 10px;
 }
 
 h4 {
@@ -35,54 +36,26 @@ h4 {
   margin: 10px 0 15px 25px;
 }
 
-.card {
-  display: flow-root;
-  margin: 20px;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  grid-template-areas:
-    "picture"
-    "contain";
-}
 .info {
   display: block;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 5px 10px;
   list-style-type: none;
 }
 .avatar {
-  width: 75px;
-  height: 75px;
   border-radius: 75%;
   margin: 0px -5px 5px 10px;
 }
 .inform_auth {
   display: flex;
 }
-.img_prof {
-  display: grid;
-  width: 70%;
-  height: 60%;
-  margin-left: 0;
-  grid-area: picture;
-}
+
 .container {
   width: 70%;
   border: 2px solid blue;
   display: grid;
   grid-area: contain;
 }
-a.mat_link {
-  color: azure;
-  text-decoration: underline;
-}
 .sharing {
   display: flex;
 }
 /* Reduce size of card for laptop Screen */
-
-@media only screen and (min-width: 760px) {
-  .card {
-    width: 50%;
-    height: 80%;
-  }
-}

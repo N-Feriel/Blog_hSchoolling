@@ -1,0 +1,41 @@
+p.article_part2 {
+  display: flex;
+  font-style: italic;
+  font-size: 1em;
+  text-align: start;
+}
+h4 {
+  color: cadetblue;
+  margin-left: 20px;
+}
+figcaption {
+  display: grid;
+  justify-items: center;
+  color: rgb(67, 102, 148);
+}
+
+.avatar {
+  width: 100px;
+  height: 70px;
+  margin-left: 20px;
+  border-radius: 75%;
+}
+
+table {
+  width: 80%;
+}
+table#add_table {
+  margin-top: 50px;
+}
+td {
+  height: 10px;
+}
+td.bl {
+  font-weight: bold;
+  size: 2rem;
+}
+td {
+  padding: 15px 10px 10px 15px;
+  border-bottom: 1px solid #ddd;
+  size: 1.5rem;
+}
