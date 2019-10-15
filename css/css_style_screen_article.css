@@ -2,40 +2,50 @@ header {
   display: grid;
   grid-area: header;
 }
+
 article {
   display: grid;
   grid-area: article;
 }
+
 aside {
   grid-area: side;
 }
+
 aside .info_auth {
   display: grid;
   grid-area: avatar;
 }
+
 aside .info {
   display: grid;
   grid-area: inform;
 }
+
 footer {
   grid-area: footer;
 }
+
 @media only screen and (max-width: 460px) {
   body {
     font-size: 75%;
   }
+
   h3 {
     text-align: center;
   }
+
   a {
     font-size: 0.9em;
   }
+
   aside {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
     grid-template-areas: "avatar infrom";
   }
+
   .wrapper {
     display: grid;
     width: 95%;
@@ -49,14 +59,17 @@ footer {
       "footer";
   }
 }
+
 @media only screen and (min-width: 760px) {
   .boxShar {
     font-size: 1.2em;
   }
+
   .avatar {
     width: 90px;
     height: 90px;
   }
+
   .wrapper {
     display: grid;
     grid-template-columns: 70% 1% 29%;

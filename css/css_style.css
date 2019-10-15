@@ -1,35 +1,39 @@
-body{
-    font-size: 100%;
-    width: 90%;
-    margin: o auto;
-    border: 2px solid black;
-}
-header{
-    width: 96.8%;
-    padding: 15px 1.56%;
-    border-bottom: 2px solid black;
-}
-main{
-    width: 70%;
-    padding: 15px 1.56%;
-    float: left;
-}
-aside{
-    width: 30%;
-    padding: 15px 1.56%;
-    float: right; 
-}
-footer{
-    font-size: .75em;
-    clear: both;
-    width: 96.8%;
-    padding: 15px 1.56%;
-    border-top: 2px solid black;
-}
-section img{
-    width: 100%;
-    max-width: 200px;
-    margin: .5em;
-    background-repeat: no-repeat;
+body {
+  font-size: 100%;
+  width: 90%;
+  margin: o auto;
+  border: 2px solid black;
 }
 
+header {
+  width: 96.8%;
+  padding: 15px 1.56%;
+  border-bottom: 2px solid black;
+}
+
+main {
+  width: 70%;
+  padding: 15px 1.56%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  padding: 15px 1.56%;
+  float: right;
+}
+
+footer {
+  font-size: 0.75em;
+  clear: both;
+  width: 96.8%;
+  padding: 15px 1.56%;
+  border-top: 2px solid black;
+}
+
+section img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0.5em;
+  background-repeat: no-repeat;
+}
