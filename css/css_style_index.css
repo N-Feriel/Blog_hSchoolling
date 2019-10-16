@@ -1,60 +1,10 @@
+@import "css_style_screen.css";
+@import "css_style.css";
 @import "button_style.css";
 
-body {
-  margin: o auto;
-  border: 1px solid grey;
-  background-color: rgb(216, 222, 241);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header {
-  padding: 10px 1.56%;
-  border-bottom: 2px solid rgb(123, 150, 187);
-  background-color: rgb(180, 216, 238);
-}
-
-main {
-  background-color: lightsteelblue;
-  padding: 15px 1.56%;
-}
-
-aside {
-  padding: 15px 1.56%;
-  background-color: rgb(135, 159, 189);
-}
-
-footer {
-  font-size: 0.75em;
-  clear: both;
-  border-top: 2px solid rgb(123, 150, 187);
-  background-color: rgb(180, 216, 238);
-  padding: 10px 1.56%;
-}
-
-h3 {
-  font-size: 1.25em;
-  color: rgb(32, 35, 223);
-  margin: 10px;
-}
-
-h4 {
-  font-size: 1.2em;
-  color: rgb(33, 66, 165);
-  margin: 10px;
-}
-
-h5 {
-  font-size: 1em;
-  color: rgb(170, 74, 138);
-  margin: 10px;
-}
-
-div.card {
-  height: 21.5em;
-}
 .card {
   border-radius: 10px;
-  border: solid;
+  border: solid rgb(167, 168, 199);
   transition: 0.3s;
 }
 
@@ -76,12 +26,12 @@ div.card {
   padding: 3px;
 }
 
-ul.header_list {
+.header_list {
   padding-inline-start: 1em;
   align-items: center;
 }
 
-ul.mat_list {
+.mat_list {
   padding-inline-start: 0.5em;
 }
 
@@ -114,7 +64,7 @@ p {
   text-indent: 5%;
 }
 
-p.phot_desc {
+.phot_desc {
   text-align: center;
   font: 1em small-caps;
 }

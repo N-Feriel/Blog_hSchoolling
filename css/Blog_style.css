@@ -1,4 +1,6 @@
-p.article_part2 {
+@import "css_style.css";
+
+#article_part2 {
   display: flex;
   font-style: italic;
   font-size: 1em;
@@ -27,21 +29,18 @@ table {
   width: 80%;
 }
 
-table#add_table {
+#add_table {
   margin-top: 50px;
 }
 
 td {
   height: 10px;
-}
-
-td.bl {
-  font-weight: bold;
-  size: 2rem;
-}
-
-td {
   padding: 15px 10px 10px 15px;
   border-bottom: 1px solid #ddd;
   size: 1.5rem;
+}
+
+#bl {
+  font-weight: bold;
+  size: 2rem;
 }

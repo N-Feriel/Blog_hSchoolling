@@ -12,12 +12,12 @@ aside {
   grid-area: side;
 }
 
-aside .info_auth {
+.info_auth {
   display: grid;
   grid-area: avatar;
 }
 
-aside .info {
+.info {
   display: grid;
   grid-area: inform;
 }

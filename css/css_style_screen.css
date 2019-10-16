@@ -60,6 +60,16 @@ footer {
     height: 100px;
   }
 
+  .card {
+    height: 20rem;
+    width: 90%;
+  }
+
+  .img_prof {
+    height: 70%;
+    width: 90%;
+  }
+
   .wrapper {
     display: grid;
     grid-template-columns: 70% 1% 29%;

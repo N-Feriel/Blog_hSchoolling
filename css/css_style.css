@@ -1,39 +1,48 @@
 body {
-  font-size: 100%;
-  width: 90%;
   margin: o auto;
-  border: 2px solid black;
+  border: 1px solid grey;
+  background-color: rgb(216, 222, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  width: 96.8%;
-  padding: 15px 1.56%;
-  border-bottom: 2px solid black;
+  padding: 10px 1.56%;
+  border-bottom: 2px solid rgb(123, 150, 187);
+  background-color: rgb(180, 216, 238);
 }
 
 main {
-  width: 70%;
+  background-color: lightsteelblue;
   padding: 15px 1.56%;
-  float: left;
 }
 
 aside {
-  width: 30%;
   padding: 15px 1.56%;
-  float: right;
+  background-color: rgb(135, 159, 189);
 }
 
 footer {
   font-size: 0.75em;
   clear: both;
-  width: 96.8%;
-  padding: 15px 1.56%;
-  border-top: 2px solid black;
+  border-top: 2px solid rgb(123, 150, 187);
+  background-color: rgb(180, 216, 238);
+  padding: 10px 1.56%;
 }
 
-section img {
-  width: 100%;
-  max-width: 200px;
-  margin: 0.5em;
-  background-repeat: no-repeat;
+h3 {
+  font-size: 1.25em;
+  color: rgb(32, 35, 223);
+  margin: 10px;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: rgb(33, 66, 165);
+  margin: 10px;
+}
+
+h5 {
+  font-size: 1em;
+  color: rgb(170, 74, 138);
+  margin: 10px;
 }

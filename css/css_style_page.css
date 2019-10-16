@@ -49,12 +49,12 @@ p {
   padding: 3px;
 }
 
-ul.header_list {
+.header_list {
   padding-inline-start: 1em;
   align-items: center;
 }
 
-ul.mat_list {
+.mat_list {
   padding-inline-start: 0.5em;
 }
 

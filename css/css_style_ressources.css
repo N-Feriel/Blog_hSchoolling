@@ -1,25 +1,25 @@
-ul.mat_list {
+.mat_list {
   padding-inline-start: 0.5em;
 }
 
-img.tab_book {
+.tab_book {
   width: 75%;
   height: 90%;
 }
 
-p.expl {
+.expl {
   display: flex;
   font-style: bold;
   font-size: 1em;
   text-align: start;
 }
 
-p.citation {
+.citation {
   font-style: italic;
   font-size: 1em;
 }
 
-a.cit {
+.cit {
   color: red;
   text-decoration: underline;
 }
@@ -35,7 +35,7 @@ a.cit {
   text-align: left;
 }
 
-table#book_table {
+#book_table {
   margin-left: 20px;
   width: 70%;
   text-align: inherit;
