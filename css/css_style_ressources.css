@@ -3,6 +3,7 @@
 }
 
 .tab_book {
+  object-fit: cover;
   width: 75%;
   height: 90%;
 }
